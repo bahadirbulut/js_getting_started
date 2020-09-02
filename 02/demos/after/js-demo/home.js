@@ -1,8 +1,6 @@
-let person = {
-    firstName: 'John',
-    lastName: 'Adams'
-};
-
-
-showMessage(person.firstName);
-console.log(person);
+var message = "no";
+function foo(message) {
+  message = "yes";
+}
+foo( message );
+console.log( message );
